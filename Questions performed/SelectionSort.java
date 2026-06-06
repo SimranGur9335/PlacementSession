@@ -10,7 +10,7 @@ class SelectionSort
 
             for(int j = i + 1; j < arr.length; j++)
             {
-                if(arr[j] < arr[minIndex])
+                if(arr[j] > arr[minIndex])
                 {
                     minIndex = j;
                 }
