@@ -1,160 +1,333 @@
-# 📚 Placement Session – Java Practice Repository
+# 📚 Placement Session – Java Programming, OOP & DSA Repository
 
-A comprehensive collection of Java programs covering core programming concepts, OOP principles, Data Structures, and a full-stack mini project — prepared during placement training sessions at **MIT-Pune**.
+A comprehensive collection of Java programs, Object-Oriented Programming concepts, Data Structures, Algorithms, and real-world mini projects developed during placement preparation and classroom training sessions.
+
+This repository serves as a complete Java learning path covering fundamentals, OOP, Collections Framework, Data Structures, Problem Solving, and GUI-based applications.
 
 ---
 
 ## 🗂️ Repository Structure
 
-```
+```text
 PlacementSession/
-├── MIT-PUNE/           # Day-wise classroom notes & programs (Day 1–9)
-├── Basic/              # Fundamentals – variables, conditions, loops
-├── Patterns/           # Star & number pattern programs
-├── While/              # While loop programs
-├── function/           # Functions & method-based programs
-├── dowhile/            # Do-While loop programs
-├── Recurssion/         # Recursion problems
-├── Array/              # Array operations
-├── Sorting/            # Sorting algorithms
-├── String/             # String manipulation
-├── ArrayList/          # ArrayList operations
-├── Set/                # Set collection programs
-├── Map/                # Map / HashMap programs
-├── Queue/              # Queue & Priority Queue
-├── LinkList/           # Linked List programs
-├── OOPS/               # OOP basics
-├── Contructor/         # Constructors (Normal & Copy)
-├── Encapsulation/      # Encapsulation concept
-├── Inheritance/        # Inheritance with real-world examples
-├── Polymorphism/       # Polymorphism examples
-├── Abstract/           # Abstract classes
-├── Interface/          # Interfaces
-├── BankApp/            # Mini Bank Application
-├── Employee/           # Employee Management
-├── Ecommerce/          # E-Commerce simulation
-├── LibraryManagement/  # Library Management System
-├── SpotifyPremium/     # Spotify-like music app
-├── Question/           # Sliding Window problems
-├── Practice/           # Mixed practice programs
-└── Smart-Restaurant-Management-System/   # Capstone Project (GUI-based)
+├── Basic/                           # Java fundamentals
+├── Constructor/                     # Constructors & Copy Constructors
+├── Encapsulation/                   # Encapsulation examples
+├── Inheritance/                     # Inheritance concepts
+├── Polymorphism/                    # Runtime & Compile-time polymorphism
+├── Interface/                       # Interface implementation examples
+├── function/                        # Functions & methods
+├── dowhile/                         # Do-While loop programs
+├── While/                           # While loop programs
+├── String/                          # String manipulation programs
+├── Recurssion/                      # Recursion problems
+├── Sorting/                         # Sorting algorithms
+├── LinkList/                        # Linked List implementations
+├── Queue/                           # Queue & Priority Queue
+├── Map/                             # HashMap & Map programs
+├── Set/                             # HashSet & Set operations
+├── Patterns/                        # Pattern printing programs
+├── Practice/                        # Practice questions
+├── Question/                        # Placement coding questions
+├── Employee/                        # Employee Management System
+├── LibraryManagement/               # Library Management System
+├── Ecommerce/                       # E-Commerce simulation
+├── SpotifyPremium/                  # Music streaming simulation
+├── Smart-Restaurant-Management-System/ # GUI-based Capstone Project
+├── SpringMIT/                       # Spring Boot Practice
+└── MIT-PUNE/                        # Classroom training programs
 ```
 
 ---
 
 ## 📖 Topics Covered
 
-### 🔹 Core Java Basics
-- Variables, Data Types, Operators
-- Conditional Statements (`if-else`, `switch`)
-- Loops – `for`, `while`, `do-while`
-- Methods / Functions
-- Recursion
+### 🔹 Core Java Fundamentals
 
-### 🔹 Arrays & Patterns
-- Array input/output, sum, average, min/max
-- Sorting: Bubble, Selection, Insertion, Merge Sort
-- Searching: Linear Search, Binary Search
-- Array operations: reverse, duplicate removal, move zeros
-- Star & number patterns (pyramids, hollow square, etc.)
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Loops (`for`, `while`, `do-while`)
+* Methods & Functions
+* Input/Output Handling
+* Recursion
 
-### 🔹 Strings
-- String manipulation, vowel/non-vowel filtering
-- Employee & Product Catalog using String
+---
+
+### 🔹 Arrays & Problem Solving
+
+* Array Traversal
+* Maximum & Minimum Element
+* Sum & Average
+* Reverse Array
+* Duplicate Removal
+* Move Zeros
+* Frequency Counting
+* Searching Techniques
+
+---
+
+### 🔹 Searching & Sorting Algorithms
+
+#### Searching
+
+* Linear Search
+* Binary Search
+
+#### Sorting
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+
+---
+
+### 🔹 String Programming
+
+* String Operations
+* StringBuilder
+* Palindrome Check
+* Character Frequency
+* Vowel & Consonant Analysis
+* String Manipulation Problems
+
+---
 
 ### 🔹 Object-Oriented Programming (OOP)
-| Concept | Examples |
-|---|---|
-| Classes & Objects | `Maruti`, `Student`, `Employee` |
-| Constructors | Normal, Copy, Parameterized |
-| Encapsulation | `MITEmp` with getters/setters |
-| Inheritance | `Teacher`, `SupportStaff`, `Bank Account` |
-| Polymorphism | `Vehicle`, `Delivery`, Parking System |
-| Abstract Classes | `Employee → Developer, HR, Marketing` |
-| Interfaces | `RestaurantService → Dominoz` |
 
-### 🔹 Collections Framework
-- `ArrayList` – Movie list, Whitelist
-- `Set` – University student management
-- `Map / HashMap` – Frequency counter, Swiggy orders, E-commerce
-- `Queue` – Patient queue, Priority Queue for Aircraft
+| Concept           | Examples                             |
+| ----------------- | ------------------------------------ |
+| Classes & Objects | Student, Employee, Vehicle           |
+| Constructors      | Default, Parameterized, Copy         |
+| Encapsulation     | Employee & Banking Models            |
+| Inheritance       | Teacher, Support Staff, Bank Account |
+| Polymorphism      | Vehicle, Delivery Systems            |
+| Abstraction       | Employee Hierarchies                 |
+| Interfaces        | Restaurant Service Examples          |
 
-### 🔹 Data Structures
-- Linked List – Browser Tab Navigation
-- Sliding Window technique
+---
 
-### 🔹 Real-World Mini Projects
-- 🏦 **Bank App** – SBI account operations
-- 🛒 **E-Commerce** – Flipkart product & reviews
-- 📚 **Library Management** – Book issue/return
-- 🍕 **Spotify Premium** – Music streaming simulation
-- 🚕 **Cab Booking** – Fare calculation
-- 🍔 **Zomato / Swiggy** – Food order simulation
+### 🔹 Java Collections Framework
+
+#### ArrayList
+
+* Dynamic Lists
+* Product Catalog
+* Movie Collections
+
+#### Set
+
+* Unique Elements
+* Student Management
+
+#### Map
+
+* HashMap
+* Frequency Counters
+* Order Tracking
+
+#### Queue
+
+* Patient Queue
+* Airline Priority Queue
+
+#### Linked List
+
+* Browser Navigation
+* Dynamic Data Storage
+
+---
+
+### 🔹 Placement Coding Problems
+
+* Prime Numbers
+* Armstrong Number
+* Palindrome Number
+* Fibonacci Series
+* Sliding Window Technique
+* Pattern Problems
+* Interview-Oriented Questions
+
+---
+
+## 🚀 Real-World Mini Projects
+
+### 👨‍💼 Employee Management System
+
+Features:
+
+* Add Employee
+* Update Employee
+* Employee Records Management
+
+---
+
+### 📚 Library Management System
+
+Features:
+
+* Book Management
+* Issue/Return Books
+* Member Tracking
+
+---
+
+### 🛒 E-Commerce Simulation
+
+Features:
+
+* Product Catalog
+* Orders
+* Customer Management
+
+---
+
+### 🎵 Spotify Premium
+
+Features:
+
+* Playlist Management
+* Song Search
+* Premium User Simulation
 
 ---
 
 ## 🏆 Capstone Project – Smart Restaurant Management System
 
-A full-featured **GUI-based Restaurant Management System** built with Java Swing.
+A complete Java Swing based Restaurant Management System developed using OOP principles, Collections Framework, and GUI components.
 
-**Features:**
-- 🍽️ Menu Management (Veg / Non-Veg items)
-- 📋 Order Management
-- 👤 Customer Management
-- 💳 Billing & Payment (Cash, Card, UPI)
-- 📊 Sales Analytics Dashboard
-- 🔍 Search & Sort utilities
+### Features
 
-**Tech Stack:** Java, Java Swing (GUI), OOP, Collections, Custom Exceptions
+#### 🍽️ Menu Management
 
-📁 Source: [`Smart-Restaurant-Management-System/`](./Smart-Restaurant-Management-System/)
+* Add Menu Items
+* Edit Menu Items
+* Delete Menu Items
+* Veg & Non-Veg Categories
+
+#### 📋 Order Management
+
+* Place Orders
+* Track Orders
+* Kitchen Workflow
+
+#### 👤 Customer Management
+
+* Customer Records
+* Loyalty Tracking
+
+#### 💳 Billing System
+
+* Cash Payments
+* Card Payments
+* UPI Payments
+* GST Calculation
+
+#### 📊 Dashboard
+
+* Sales Analytics
+* Revenue Monitoring
+* Order Statistics
+
+#### 🔍 Utilities
+
+* Searching Algorithms
+* Sorting Algorithms
+* Exception Handling
+
+### Tech Stack
+
+* Java
+* Java Swing
+* OOP
+* Collections Framework
+* Custom Exceptions
+* Local JSON Storage
+
+📁 Project Folder:
+
+```text
+Smart-Restaurant-Management-System/
+```
 
 ---
 
-## 🚀 How to Run
+## 🛠️ Technologies Used
 
-### Prerequisites
-- Java JDK 8 or above
-- Any IDE (VS Code, IntelliJ IDEA, Eclipse) or terminal
+* Java
+* Java Swing
+* Collections Framework
+* OOP Principles
+* Data Structures & Algorithms
+* Spring Boot
+* Maven
+* Git & GitHub
 
-### Run a single file
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
 ```bash
-cd <folder-name>
+git clone https://github.com/SimranGur9335/PlacementSession.git
+```
+
+### Navigate to Repository
+
+```bash
+cd PlacementSession
+```
+
+### Compile Java Program
+
+```bash
 javac FileName.java
+```
+
+### Run Java Program
+
+```bash
 java FileName
 ```
 
-### Run the Restaurant Management System
+### Run Restaurant Management System
+
 ```bash
 cd Smart-Restaurant-Management-System/src
+
 javac com/restaurant/Main.java
+
 java com.restaurant.Main
 ```
 
 ---
 
-## 📅 Day-wise Classroom Progress (MIT-Pune)
+## 📈 Learning Outcomes
 
-| Day | Topics Covered |
-|-----|----------------|
-| Day 1 | Java Intro, Variables, Conditional Statements |
-| Day 2 | For Loops, Patterns, Armstrong, Fibonacci, Palindrome |
-| Day 3 | While / Do-While, Modular Functions, Prime in Range |
-| Day 4 | Recursion, Real-world problem (Zomato, Taxi) |
-| Day 5 | Arrays – Input, Search, Sort, Reverse, Unique |
-| Day 6 | Advanced Sorting – Insertion, Selection, Merge, Move Zeros |
-| Day 7 | String Builders, Sliding Window, Employee problems |
-| Day 8 | OOP – Classes, Constructors, Encapsulation |
-| Day 9 | Inheritance, Practice Problems |
+After completing this repository, you will be able to:
+
+* Build Java applications from scratch
+* Apply OOP principles effectively
+* Solve placement-level coding problems
+* Implement Data Structures
+* Understand Collections Framework
+* Develop GUI applications using Java Swing
+* Work with Spring Boot fundamentals
 
 ---
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
-**Simran Gur**  
-MIT-Pune | Java Placement Training  
-🔗 [GitHub Profile](https://github.com/SimranGur9335)
+**Gursimran Singh Saini**
+
+🎓 B.Tech Information Technology
+🏫 MIT ADT University, Pune
+
+GitHub:
+https://github.com/SimranGur9335
 
 ---
 
-> ⭐ Star this repo if it helped you with your Java preparation!
+⭐ If this repository helped you in Java learning or placement preparation, consider giving it a star.
