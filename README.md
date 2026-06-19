@@ -1,8 +1,8 @@
-# 📚 Placement Session – Java Programming, OOP & DSA Repository
+# 📚 Placement Session – Java Programming, OOP, DSA & Spring Boot Repository
 
-A comprehensive collection of Java programs, Object-Oriented Programming concepts, Data Structures, Algorithms, and real-world mini projects developed during placement preparation and classroom training sessions.
+A comprehensive collection of Java programs, Object-Oriented Programming concepts, Data Structures, Algorithms, Spring Boot applications, and real-world mini projects developed during placement preparation and classroom training sessions.
 
-This repository serves as a complete Java learning path covering fundamentals, OOP, Collections Framework, Data Structures, Problem Solving, and GUI-based applications.
+This repository serves as a complete Java learning path covering Core Java, OOP, Collections Framework, Data Structures & Algorithms, Spring Boot, REST APIs, and project-based learning.
 
 ---
 
@@ -10,32 +10,33 @@ This repository serves as a complete Java learning path covering fundamentals, O
 
 ```text
 PlacementSession/
-├── Basic/                           # Java fundamentals
-├── Constructor/                     # Constructors & Copy Constructors
-├── Encapsulation/                   # Encapsulation examples
-├── Inheritance/                     # Inheritance concepts
-├── Polymorphism/                    # Runtime & Compile-time polymorphism
-├── Interface/                       # Interface implementation examples
-├── function/                        # Functions & methods
-├── dowhile/                         # Do-While loop programs
-├── While/                           # While loop programs
-├── String/                          # String manipulation programs
-├── Recurssion/                      # Recursion problems
-├── Sorting/                         # Sorting algorithms
-├── LinkList/                        # Linked List implementations
-├── Queue/                           # Queue & Priority Queue
-├── Map/                             # HashMap & Map programs
-├── Set/                             # HashSet & Set operations
-├── Patterns/                        # Pattern printing programs
-├── Practice/                        # Practice questions
-├── Question/                        # Placement coding questions
-├── Employee/                        # Employee Management System
-├── LibraryManagement/               # Library Management System
-├── Ecommerce/                       # E-Commerce simulation
-├── SpotifyPremium/                  # Music streaming simulation
-├── Smart-Restaurant-Management-System/ # GUI-based Capstone Project
-├── SpringMIT/                       # Spring Boot Practice
-└── MIT-PUNE/                        # Classroom training programs
+├── Basic/                               # Java Fundamentals
+├── Constructor/                         # Constructors & Copy Constructors
+├── Encapsulation/                       # Encapsulation Examples
+├── Inheritance/                         # Inheritance Concepts
+├── Polymorphism/                        # Runtime & Compile-time Polymorphism
+├── Interface/                           # Interface Implementation Examples
+├── function/                            # Functions & Methods
+├── dowhile/                             # Do-While Loop Programs
+├── While/                               # While Loop Programs
+├── String/                              # String Manipulation Programs
+├── Recurssion/                          # Recursion Problems
+├── Sorting/                             # Sorting Algorithms
+├── LinkList/                            # Linked List Implementations
+├── Queue/                               # Queue & Priority Queue
+├── Map/                                 # HashMap & Map Programs
+├── Set/                                 # HashSet & Set Operations
+├── Patterns/                            # Pattern Printing Programs
+├── Practice/                            # Practice Questions
+├── Question/                            # Placement Coding Questions
+├── Employee/                            # Employee Management System
+├── LibraryManagement/                   # Library Management System
+├── Ecommerce/                           # E-Commerce Simulation
+├── SpotifyPremium/                      # Music Streaming Simulation
+├── Smart-Restaurant-Management-System/  # GUI-Based Restaurant System
+├── SpringMIT/                           # Spring Boot Practice Programs
+├── SpringBoot/                          # Full Spring Boot CRUD Application
+└── MIT-PUNE/                            # Classroom Training Programs
 ```
 
 ---
@@ -47,25 +48,21 @@ PlacementSession/
 * Variables & Data Types
 * Operators
 * Conditional Statements
-* Loops (`for`, `while`, `do-while`)
+* Loops (for, while, do-while)
 * Methods & Functions
 * Input/Output Handling
+* Exception Handling
 * Recursion
-
----
 
 ### 🔹 Arrays & Problem Solving
 
 * Array Traversal
 * Maximum & Minimum Element
-* Sum & Average
 * Reverse Array
-* Duplicate Removal
-* Move Zeros
 * Frequency Counting
+* Duplicate Removal
 * Searching Techniques
-
----
+* Placement-Oriented Problems
 
 ### 🔹 Searching & Sorting Algorithms
 
@@ -81,8 +78,6 @@ PlacementSession/
 * Insertion Sort
 * Merge Sort
 
----
-
 ### 🔹 String Programming
 
 * String Operations
@@ -94,7 +89,7 @@ PlacementSession/
 
 ---
 
-### 🔹 Object-Oriented Programming (OOP)
+## 🔹 Object-Oriented Programming (OOP)
 
 | Concept           | Examples                             |
 | ----------------- | ------------------------------------ |
@@ -108,38 +103,38 @@ PlacementSession/
 
 ---
 
-### 🔹 Java Collections Framework
+## 🔹 Java Collections Framework
 
-#### ArrayList
+### ArrayList
 
 * Dynamic Lists
 * Product Catalog
 * Movie Collections
 
-#### Set
+### Set
 
 * Unique Elements
 * Student Management
 
-#### Map
+### Map
 
 * HashMap
 * Frequency Counters
 * Order Tracking
 
-#### Queue
+### Queue
 
 * Patient Queue
 * Airline Priority Queue
 
-#### Linked List
+### Linked List
 
 * Browser Navigation
 * Dynamic Data Storage
 
 ---
 
-### 🔹 Placement Coding Problems
+## 🔹 Placement Coding Problems
 
 * Prime Numbers
 * Armstrong Number
@@ -151,11 +146,53 @@ PlacementSession/
 
 ---
 
-## 🚀 Real-World Mini Projects
+# 🚀 Spring Boot Application
 
-### 👨‍💼 Employee Management System
+## SpringBoot/
 
-Features:
+A complete Spring Boot CRUD application demonstrating enterprise-level backend development using:
+
+### Features
+
+* Customer Management
+* Product Management
+* Order Management
+* REST APIs
+* Service Layer Architecture
+* Repository Layer (JPA)
+* Entity Relationships
+* MySQL Database Integration
+* Maven Build System
+
+### Technologies Used
+
+* Java 17+
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* MySQL
+* Maven
+* REST API Development
+
+### Project Structure
+
+```text
+SpringBoot/
+├── controller/
+├── service/
+├── repository/
+├── entity/
+├── resources/
+└── pom.xml
+```
+
+---
+
+# 🚀 Real-World Mini Projects
+
+## 👨‍💼 Employee Management System
+
+### Features
 
 * Add Employee
 * Update Employee
@@ -163,9 +200,9 @@ Features:
 
 ---
 
-### 📚 Library Management System
+## 📚 Library Management System
 
-Features:
+### Features
 
 * Book Management
 * Issue/Return Books
@@ -173,19 +210,19 @@ Features:
 
 ---
 
-### 🛒 E-Commerce Simulation
+## 🛒 E-Commerce Simulation
 
-Features:
+### Features
 
 * Product Catalog
-* Orders
 * Customer Management
+* Order Tracking
 
 ---
 
-### 🎵 Spotify Premium
+## 🎵 Spotify Premium
 
-Features:
+### Features
 
 * Playlist Management
 * Song Search
@@ -193,9 +230,9 @@ Features:
 
 ---
 
-## 🏆 Capstone Project – Smart Restaurant Management System
+# 🏆 Capstone Project – Smart Restaurant Management System
 
-A complete Java Swing based Restaurant Management System developed using OOP principles, Collections Framework, and GUI components.
+A complete Java Swing-based Restaurant Management System developed using OOP principles, Collections Framework, and GUI components.
 
 ### Features
 
@@ -245,23 +282,20 @@ A complete Java Swing based Restaurant Management System developed using OOP pri
 * Custom Exceptions
 * Local JSON Storage
 
-📁 Project Folder:
-
-```text
-Smart-Restaurant-Management-System/
-```
-
 ---
 
 ## 🛠️ Technologies Used
 
 * Java
 * Java Swing
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* Maven
+* MySQL
 * Collections Framework
 * OOP Principles
 * Data Structures & Algorithms
-* Spring Boot
-* Maven
 * Git & GitHub
 
 ---
@@ -292,14 +326,17 @@ javac FileName.java
 java FileName
 ```
 
-### Run Restaurant Management System
+### Run Spring Boot Application
 
 ```bash
-cd Smart-Restaurant-Management-System/src
+cd SpringBoot
+mvn spring-boot:run
+```
 
-javac com/restaurant/Main.java
+### Build Spring Boot Project
 
-java com.restaurant.Main
+```bash
+mvn clean install
 ```
 
 ---
@@ -311,10 +348,11 @@ After completing this repository, you will be able to:
 * Build Java applications from scratch
 * Apply OOP principles effectively
 * Solve placement-level coding problems
-* Implement Data Structures
-* Understand Collections Framework
-* Develop GUI applications using Java Swing
-* Work with Spring Boot fundamentals
+* Implement Data Structures & Algorithms
+* Work with Java Collections Framework
+* Develop REST APIs using Spring Boot
+* Integrate MySQL with Java Applications
+* Build GUI Applications using Java Swing
 
 ---
 
@@ -325,9 +363,8 @@ After completing this repository, you will be able to:
 🎓 B.Tech Information Technology
 🏫 MIT ADT University, Pune
 
-GitHub:
-https://github.com/SimranGur9335
+GitHub: https://github.com/SimranGur9335
 
 ---
 
-⭐ If this repository helped you in Java learning or placement preparation, consider giving it a star.
+⭐ If this repository helped you in Java learning, Spring Boot development, or placement preparation, consider giving it a star.
